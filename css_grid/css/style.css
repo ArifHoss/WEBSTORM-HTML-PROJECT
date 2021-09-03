@@ -1,0 +1,44 @@
+.gid-container{
+    max-width: 2500px;
+    background-color: gainsboro;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+.grid-items{
+    background-color: #665544;
+    padding: 10px;
+
+}
+header{
+    text-align: center;
+    background-color: #a18a7c;
+    margin: 10px;
+    display: grid;
+}
+
+nav{
+    text-align: center;
+    background-color: #fffdfd;
+    color: #070000;
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav a{
+    flex: auto;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+nav a:active{
+    background-color: #4040ab;
+    color: white;
+}
