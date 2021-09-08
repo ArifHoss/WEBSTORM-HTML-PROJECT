@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
+/*General*/
+/*MobileFirst*/
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+header{
+    /*background-color: beige;*/
+    /*color: #0a0000;*/
+    text-transform: uppercase;
+}
+
+nav{
+    grid-area: navigation;
+    display: flex;
+}
+
+nav a{
+    flex: auto;
+    text-decoration-color: #ababa6;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background-color: #b0b006;
+}
+
+nav a:active{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.gid-container{
+    max-width: 2500px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: initial;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+
+.grid-items{
+    background-color: #f8f8cb;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 130%;
+    padding: 0;
+}

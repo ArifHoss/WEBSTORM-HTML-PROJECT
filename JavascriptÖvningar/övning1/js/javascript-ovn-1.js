@@ -1,0 +1,10 @@
+// var name = 'Arif';
+// var adress = 'Stockholm';
+// var telefonnummer = '0763209865';
+// console.log('Hello World');
+// console.log('This is my address: '+ name+', '+adress+', '+ telefonnummer);
+let sayHello = 'Hello World';
+let name = 'Arif';
+let adress = 'Stockholm';
+let phone = '0763209865';
+console.log(sayHello+', This is my contact: '+name+', '+adress+', '+phone);
